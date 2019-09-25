@@ -1,0 +1,69 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+h2{
+    font-weight: 400;
+}
+
+p{
+    font-weight: 300;
+}
+
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-center{
+    text-align: center;
+}
+/* Nuevas librerias para el responsive */
+.columna{
+    background: #eaeaea ;
+    color: #444444;
+    border: 1px solid #444444;
+    padding: 1em;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #8a8888;
+    width: 22%;
+    box-sizing: border-box;
+}
+
+.precio{
+    font-size: 50px;
+    color: #00bdaa;
+}
+
+.btn-precio{
+ background: tomato;
+ display: block;
+ text-decoration: none;
+ padding: 1em;
+ color: white;
+ border-radius: 5px;
+}
+
+.btn-precio:hover{
+    background: rgb(252, 67, 35);
+}
+
+@media(max-width: 1070px){
+    .columna{
+        width: 45%;
+        margin-bottom: 1.5em;
+    }
+}
+
+@media(max-width: 600px){
+    .columna{
+        width: 100%;
+        margin-bottom: 1.5em;
+    }
+}
